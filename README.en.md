@@ -21,7 +21,7 @@ With <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> already install
 npm install -g @desco/dst-bkp
 ``
  
-This command will install **@ desco/dst-bkp** on your machine.
+This command will install **@desco/dst-bkp** on your machine.
  
 > Note that it will be necessary to close and reopen the command line for **@desco/dst-bkp** to be recognized by it.
  
@@ -29,7 +29,7 @@ This command will install **@ desco/dst-bkp** on your machine.
  
 ### Setting
  
-To configure**@desco/dst-bkp **in the** world **that you want to keep a periodic copy of, open its** cluster**directory on your preferred command line and run:
+To configure **@desco/dst-bkp** in the **world** that you want to keep a periodic copy of, open its **cluster** directory on your preferred command line and run:
  
 ``
 dst-bkp
@@ -67,7 +67,7 @@ This option will start copying the **cluster/world** at the interval defined in 
  
 With each new copy a message will be displayed.
  
-![3](/assets/3_lpi3x5dsh.png)
+![2](/assets/2.png)
  
 To cancel the process, simply close the command line or press **ctrl + c**.
  
@@ -79,7 +79,7 @@ Use this option to choose the desired copy.
  
 You can *"navigate"* between them using the up and down arrows, just as you can select with the **enter** key.
  
-![2](/assets/3.png)
+![3](/assets/3.png)
  
 ***Reset***
  

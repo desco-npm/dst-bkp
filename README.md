@@ -67,7 +67,7 @@ Esta opção irá começar a cópia do **cluster/mundo** no intervalo definido n
  
 A cada nova cópia uma mensagem será exibida.
  
-![3](/assets/2.png)
+![2](/assets/2.png)
  
 Para cancelar o processo, simplesmente feche a linha de comando ou pressione **ctrl+c**.
  
@@ -79,7 +79,7 @@ Use essa opção para escolher a cópia desejada.
  
 Você pode *"navegar"* entre elas utilizando as setas para cima e para baixo, assim como pode selecionar com a tecla **enter**.
  
-![2](/assets/3.png)
+![3](/assets/3.png)
  
 ***Reconfigurar***
  
