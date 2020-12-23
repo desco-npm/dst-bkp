@@ -24,6 +24,21 @@ npm install -g @desco/dst-bkp
 This command will install **@desco/dst-bkp** on your machine.
  
 > Note that it will be necessary to close and reopen the command line for **@desco/dst-bkp** to be recognized by it.
+
+### Execution Policy Error
+
+By default, Windows comes with blocked third-party script execution causing this error
+
+![5](/assets/5.png)
+
+To resolve, open the command line of your choice as a system administrator and run the command `Set-ExecutionPolicy Unrestricted`, answering the confirmation question as` (A) Yes for Everyone`.
+
+![6](/assets/6.png)
+![4](/assets/4.png)
+
+> Watch out! This Windows restriction policy is designed to increase your security, disable at your own risk!
+
+After disabling, try the **@desco/dst-bkp** installation process again.
  
 ## Using
  

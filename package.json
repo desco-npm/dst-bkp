@@ -1,6 +1,6 @@
 {
-  "name": "dst-bkp",
-  "version": "1.0.0",
+  "name": "@desco/dst-bkp",
+  "version": "1.0.2",
   "description": "Back up Don't Starve Together game worlds",
   "main": "lib/index.js",
   "bin": {
