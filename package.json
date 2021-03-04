@@ -1,6 +1,6 @@
 {
   "name": "@desco/dst-bkp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Back up Don't Starve Together game worlds",
   "main": "lib/index.js",
   "bin": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/descodifica/dst-bkp.git"
+    "url": "git+https://github.com/desco-npm/dst-bkp.git"
   },
   "keywords": [
     "dont_starve_together",
@@ -21,10 +21,7 @@
   ],
   "author": "Rafael A. R. Dias <eu@diasrafael.com.br>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/descodifica/dst-bkp/issues"
-  },
-  "homepage": "https://github.com/descodifica/dst-bkp#readme",
+  "homepage": "https://github.com/desco-npm/dst-bkp",
   "dependencies": {
     "clear": "^0.1.0",
     "colors": "^1.4.0",
