@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=Read+in+American+English&color=red&style=for-the-badge" />
   </a>
 </div>
 
@@ -12,8 +12,8 @@
       Pacote global para cópia periódica e restauração dos mundos do jogo Don't Starve Together.
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.0.3" src="https://img.shields.io/static/v1?label=Versão&message=1.0.3&color=blue&style=for-the-badge">
+        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licen%C3%A7a&message=MIT&color=green&style=for-the-badge">
+        <img alt="Versão 1.0.3" src="https://img.shields.io/static/v1?label=Vers%C3%A3o&message=1.0.3&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
         🚀 Pronto para uso! 🚀
@@ -30,23 +30,22 @@
 
 ## 📋 Tabela de conteúdos
 
-* [🛠️ Tecnologias](#Tecnologias)
-* [⚙️ Instalação](#Instalação)
-* [✨ Criando ou Configurando uma Rotina de Cópia Periódica](#Criando-ou-Configurando-uma-Rotina-de-Cópia-Periódica)
-* [🏁 Iniciar Cópia Periódica](#Iniciar-Cópia-Periódica)
-* [❤️ Restaurar uma Cópia](#Restaurar-uma-Cópia)
+- [🛠️ Tecnologias](#Tecnologias)
+- [⚙️ Instalação](#Instalação)
+- [✨ Criando ou Configurando uma Rotina de Cópia Periódica](#Criando-ou-Configurando-uma-Rotina-de-Cópia-Periódica)
+- [🏁 Iniciar Cópia Periódica](#Iniciar-Cópia-Periódica)
+- [❤️ Restaurar uma Cópia](#Restaurar-uma-Cópia)
 
 ---
 
 <a name="Tecnologias"></a>
 
-
 ## 🛠️ Tecnologias
 
 As seguintes tecnologias são utilizadas:
 
-* [NodeJS](https://nodejs.org/en/);
-* [Moment](https://www.npmjs.com/package/moment);
+- [NodeJS](https://nodejs.org/en/);
+- [Moment](https://www.npmjs.com/package/moment);
 
 ---
 
@@ -55,19 +54,19 @@ As seguintes tecnologias são utilizadas:
 ## ⚙️ Instalação
 
 É necessário ter o <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> instalado no computador para rodar e até mesmo instalar, <a href="https://nodejs.org/en/" target="_blank">clique aqui</a> para baixar e instalar.
- 
+
 Dê preferência para a versão **LTS** que é mais estável.
- 
-O processo de instalação é padrão, no Windows basta um *"instalar, instalar, instalar"*.
+
+O processo de instalação é padrão, no Windows basta um _"instalar, instalar, instalar"_.
 
 Com o <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> já instalado, abra a linha de comando de sua preferência e entre com o seguinte comando:
- 
+
 ```bash
 npm install -g @desco/dst-bkp
 ```
- 
+
 Este comando irá instalar o **@desco/dst-bkp** na sua máquina.
- 
+
 > Note que será preciso fechar e abrir novamente a linha de comando para que o **@desco/dst-bkp** seja reconhecido por ela
 
 <a name="Como-Usar"></a>
@@ -94,49 +93,49 @@ Após desabilitar, tente novamente o processo de instalação do **@desco/dst-bk
 ## ✨ Criando ou Configurando uma Rotina de Cópia Periódica
 
 Para iniciar/configurar o **@desco/dst-bkp** no **mundo** que deseja manter uma cópia periódica, abra o diretório do **cluster** dele na linha de comando de sua preferência e rode:
- 
+
 ```bash
 dst-bkp
 ```
- 
+
 Algumas perguntas serão feitas, são elas:
- 
-***A cada quantos minutos a cópia deverá ser executada? (Cada dia do jogo tem 4 minutos)***
- 
+
+**_A cada quantos minutos a cópia deverá ser executada? (Cada dia do jogo tem 4 minutos)_**
+
 A partir do momento que a rotina de cópia periódica for iniciada, o **cluster** do mundo será copiado de **N** em **N** minutos, esse valor é escolhido pelo jogador e por padrão é usado - e recomendado - 4 minutos, ou seja, o tempo que dura um dia no jogo.
- 
-***Em qual diretório as cópias deverão ser guardadas?***
- 
+
+**_Em qual diretório as cópias deverão ser guardadas?_**
+
 As cópias devem ser feitas em algum local, onde? Defina aqui o endereço do diretório.
- 
-***Qual o limite de cópias? (As mais antigas serão removidas)***
- 
+
+**_Qual o limite de cópias? (As mais antigas serão removidas)_**
+
 Para evitar uma quantidade absurda de cópias lotando o disco rígido, o **@desco/dst-bkp** apaga as cópias mais antigas, cabendo ao jogador definir a quantidade de cópias.
- 
+
 Se deseja uma única cópia, defina **1**, porém note que corre o risco de perder uma cópia mais antiga por morrer enquanto esta longe do computador e o jogo reseta. Como a cópia é feita a cada **N** minutos, se tiver apenas uma cópia e você demorar mais que esse tempo, o mundo estará perdido de qualquer forma.
- 
-Se quiser ter todas as cópias, simplesmente defina um número enorme. Por exemplo: Se a cópia é feita a cada **4** minutos que é um dia no jogo, podemos definir uma cópia completa como ***9000*** dias, ou ***9000*** cópias. Alguém tem um mundo tão longo? Tem? Então só aumentar o número!
- 
+
+Se quiser ter todas as cópias, simplesmente defina um número enorme. Por exemplo: Se a cópia é feita a cada **4** minutos que é um dia no jogo, podemos definir uma cópia completa como **_9000_** dias, ou **_9000_** cópias. Alguém tem um mundo tão longo? Tem? Então só aumentar o número!
+
 Por padrão, a resposta padrão para esta pergunta é o número equivalente a **1** ano do jogo, de acordo com o tempo definido entre as cópias.
- 
+
 ![1](/assets/1.png)
- 
+
 Após responder as perguntas, um menu de opções irá surgir, este é o menu padrão do programa que sempre será exibido quando invocado com a configuração já feita.
- 
-São três opções e você pode *"navegar"* entre elas utilizando as setas para cima e para baixo, assim como pode selecionar com a tecla **enter**.
+
+São três opções e você pode _"navegar"_ entre elas utilizando as setas para cima e para baixo, assim como pode selecionar com a tecla **enter**.
 
 ---
 
 <a name="Iniciar-Cópia-Periódica"></a>
 
 ## 🏁 Iniciar Cópia Periódica
- 
+
 Esta opção irá começar a cópia do **cluster/mundo** no intervalo definido no processo de configuração.
- 
+
 A cada nova cópia uma mensagem será exibida.
- 
+
 ![2](/assets/2.png)
- 
+
 Para cancelar o processo, simplesmente feche a linha de comando ou pressione **ctrl+c**.
 
 ---
@@ -146,11 +145,11 @@ Para cancelar o processo, simplesmente feche a linha de comando ou pressione **c
 ## ❤️ Restaurar uma Cópia
 
 Deseja recuperar uma cópia antiga?
- 
+
 Use essa opção para escolher a cópia desejada.
- 
-Você pode *"navegar"* entre elas utilizando as setas para cima e para baixo, assim como pode selecionar com a tecla **enter**.
- 
+
+Você pode _"navegar"_ entre elas utilizando as setas para cima e para baixo, assim como pode selecionar com a tecla **enter**.
+
 ![3](/assets/3.png)
 
 ---
@@ -174,10 +173,10 @@ Você pode *"navegar"* entre elas utilizando as setas para cima e para baixo, as
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Geral @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
